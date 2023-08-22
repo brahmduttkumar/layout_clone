@@ -1,0 +1,241 @@
+body {
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 50px;
+}
+.mainbox {
+    padding-top: 10%;
+    padding-left: 8%;
+}
+.last-mainbox h1
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: red;
+}
+.last-mainbox p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mainbox h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: red;
+}
+
+.mainbox p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.mainbox a {
+    text-decoration: none;
+    color: red;
+}
+
+.mainbox button {
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 15px;
+    border-bottom: 5px solid red;
+    border-right: 5px solid red;
+}
+
+.mainbox button:hover {
+    color: red;
+}
+.aboutpbox {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.aboutpbox h1 {
+    color: red;
+    font-size: 40px;
+    font-weight: 700;
+    width: 400px;
+    border-radius: 3px;
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+}
+
+.aboutpbox h1:before {
+    content: "";
+    display: block;
+    width: 315px;
+    height: 5px;
+    background: #ff1201;
+    left: 0%;
+    top: 40%;
+    position: absolute;
+}
+.aboutpbox h1:after {
+    content: "";
+    display: block;
+    width: 315px;
+    height: 5px;
+    background: #ff1201;
+    right: 0%;
+    top: 40%;
+    position: absolute;
+}
+.box2 p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.box2{
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+.iconbox1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.iconbox1 h1{
+    border-bottom: 4px solid black;
+}
+.iconbox1 .icon{
+    padding: 30px;
+    justify-content: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    color: #ff1201;
+}
+.box2 .iconbox1 .iconbox2 p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.contentrow{
+    height: auto;
+    background-color: #dedede;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.contentrow .heading{
+    width: fit-content;
+    border-bottom: 4px solid black;
+}
+.contentrow .heading h2{
+    font-weight: 700;
+}
+.contentrow .icon{
+    display: flex;
+    justify-content: center;
+}
+.anc-sec{
+    border-top: 4px solid red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.an-head-box{
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-bottom: 4px solid red; 
+}
+
+.anc-sec .icon{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 4px solid black;
+}
+.cont-box{
+    margin: auto;
+}
+.cont-box p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.satt-icon{
+    justify-content: center;
+    display: flex;
+}
+.satt-icon img{
+    height: 100px;
+    width: 200px;
+}
+.cont-box button{
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 15px;
+    border-bottom: 5px solid red;
+    border-right: 5px solid red;
+}
+
+.btn1
+{
+    display: flex;
+    justify-content: center;
+}
+.last-box{
+    justify-content: space-around;
+}
+.last-mainbox .last-icon-box{
+    height: 250px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    margin: auto;
+}
+.last-cont-box .media-icon{
+    padding: 7px;
+    text-align: center;
+    background-color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.last-cont-box .media-icon-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
